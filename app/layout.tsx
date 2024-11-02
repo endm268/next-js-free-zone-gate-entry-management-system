@@ -8,14 +8,10 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Next Shadcn',
-  description: 'Basic dashboard with Next.js and Shadcn'
+  description: 'next-js-free-zone-gate-entry-management-system'
 };
 
-const tajawal = Tajawal({
-  subsets: ['latin'],
-  weight: ['400', '500', '700', '900'],
-  display: 'swap'
-});
+
 
 export default async function RootLayout({
   children
@@ -27,7 +23,7 @@ export default async function RootLayout({
     <html
       lang="ar"
       dir="rtl"
-      className={`${tajawal.className}`}
+      className="font-tajawal"
       suppressHydrationWarning={true}
     >
       <body className={'overflow-hidden'}>
